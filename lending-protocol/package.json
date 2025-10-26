@@ -1,0 +1,34 @@
+{
+  "name": "lending-protocol",
+  "version": "1.0.0",
+  "description": "A decentralized lending protocol with leverage features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "deploy": "ts-node scripts/deploy.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/lending-protocol.git"
+  },
+  "keywords": [
+    "lending",
+    "decentralized",
+    "finance",
+    "leverage",
+    "ethereum"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.0.0",
+    "hardhat": "^2.0.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "ts-node": "^10.0.0",
+    "eslint": "^7.0.0"
+  }
+}
